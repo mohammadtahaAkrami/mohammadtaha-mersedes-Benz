@@ -334,14 +334,14 @@ color: #fff;
 padding: 9px 34px;
 cursor: pointer;
 }
-.neveshte{
+.written{
 font-family: Roboto-Black;
 width: calc(100% - 60px);
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 30px;
 }
-.neveshte1{
+.written1{
 display: flex;
 gap: 26px;
 padding-top: 100px;
@@ -369,3 +369,19 @@ height: 30px;
 background-color: green;
 height: 30px;
 }
+.more-information{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.Titles{
+    font-size: 34px;
+    display: flex;
+    gap: 250px;
+    border-bottom: 3px solid #333;
+    padding-bottom: 25px;
+}
+.information{
+   padding-top: 25px;
+}
+
