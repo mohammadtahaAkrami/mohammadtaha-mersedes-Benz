@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide.min.css">
+    <script src="splide.min.js"></script>
     <link rel="icon" sizes="any" type="image/svg+xml" href="logo.svg">
     <title>Mersedes Benz site</title>
 </head>
@@ -27,7 +29,23 @@
         </div>
     </div>
     <div class="wrapper">
-    <div class="background"><img src="Project-photos/aks1.jpeg"></div>
+    <div class="background">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><div class="lang-box">slide 1</div></li>
+                  <li class="splide__slide"><div class="lang-box">slide 2</div></li>
+                  <li class="splide__slide"><div class="lang-box">slide 3</div></li>
+                  <li class="splide__slide"><div class="lang-box">slide 4</div></li>
+                  <li class="splide__slide"><div class="lang-box">slide 5</div></li>
+              </ul>
+        </div>
+      </section>
+      <script>
+        var splide = new Splide( '.splide' );
+        splide.mount();
+      </script>
+      </div>
     <div class="p3">
         <div>World Premiere-EQS SUV.</div>
         <button class="button1">Discover now</button>
@@ -182,23 +200,73 @@
         <div class="quick-access2"></div>
         <div class="quick-access3"></div>
         </div>
-
-        <div class="more-information">
-            <div class="Titles">
-                <div>More topics</div>
-                <div>Shopping</div>
-                <div>All about cars</div>
-                <div>Discover more</div>
-            </div>
-            <div class="information">
-            <div>Innovation</div>
-            <div>Design</div>
-            <div>Exhibitions</div>
-            <div>Museum & History</div>
-            <div>Sports</div>
-            <div>Driving Events</div>
-            <div>Mercedes me Portal</div>
-            </div>
-        </div>
+        <table>
+            <tr>
+                <th>More topics</th>
+                <th>Shopping</th>
+                <th>All about cars</th>
+                <th>Discover more</th>
+            </tr>
+            <tr>
+                <td class="Top-of-the-list">Innovation</td>
+                <td class="Top-of-the-list">Dealer Search</td>
+                <td class="Top-of-the-list">Model Overview</td>
+                <td class="Top-of-the-list">Newsroom</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+                <td>Mercedes-Benz Accessoires</td>
+                <td>Configurator</td>
+                <td>Press</td>
+            </tr>
+            <tr>
+                <td>Exhibitions</td>
+                <td>Mercedes-Benz Collection</td>
+                <td>Test Drive</td>
+                <td>Career</td>
+            </tr>
+            <tr>
+                <td>Museum & History</td>
+                <td>Mercedes me connect Store</td>
+                <td>Mercedes-Maybach</td>
+                <td>heycar</td>
+            </tr>
+            <tr>
+                <td>Sports</td>
+                <td>Service & Parts</td>
+                <td>Mercedes me connect</td>
+                <td>SHARE NOW</td>
+            </tr>
+            <tr>
+                <td>Driving Events</td>
+                <td>Formula 1 Store</td>
+                <td>Mercedes-Benz Ex-Factory Driving Aids</td>
+                <td>Vulnerability Reporting Policy</td>
+            </tr>
+            <tr>
+                <td>Mercedes me Portal</td>
+                <td>Mercedes-Benz Classic Center</td>
+                <td>WLTP</td>
+                <td>Mercedes-Benz Energy</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>RDE</td>
+                <td>Mercedes-Benz Bank</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Semiconductors supply situation</td>
+                <td>Fleet Sales</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Li-Ion UN38.3</td>
+                <td>Mercedes-Benz Global Training</td>
+            </tr>
+        </table>
 </body>
 </html>
