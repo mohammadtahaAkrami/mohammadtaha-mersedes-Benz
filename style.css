@@ -370,7 +370,7 @@ padding-top: 100px;
     src: url("Roboto-Black.ttf");
 }
 .quick-access{
-    position: fixed;
+position: fixed;
 width: 170px;
 right: 0;
 top: 270px;
@@ -388,19 +388,22 @@ height: 30px;
 background-color: green;
 height: 30px;
 }
-.more-information{
+table{
+    background-color: black;
     width: calc(100% - 60px);
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
 }
-.Titles{
-    font-size: 34px;
-    display: flex;
-    gap: 250px;
-    border-bottom: 3px solid #333;
-    padding-bottom: 25px;
+th{
+    padding-right: 180px;
+   font-size: 34px; 
+   border-bottom: 3px solid #333;
+   padding-bottom: 25px;
 }
-.information{
-   padding-top: 25px;
+.Top-of-the-list{
+    padding-top: 25px;
 }
+
 
