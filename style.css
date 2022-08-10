@@ -374,7 +374,6 @@ position: fixed;
 width: 170px;
 right: 0;
 top: 270px;
-left: 1490px;
 }
 .quick-access1{
 background-color: red;
@@ -407,3 +406,24 @@ th{
 }
 
 
+/*=-===================================*/
+
+.benz-main-slideshow{
+    height:600px;
+    width:100%;
+    background-color: red;
+}
+.slide-item{
+    height:600px;
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#333;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slide1{
+    background: url('Project-photos/aks1.jpeg');
+}
