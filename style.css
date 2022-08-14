@@ -400,29 +400,5 @@ th{
 .Top-of-the-list{
     padding-top: 25px;
 }
-<<<<<<< HEAD
-=======
 
 
-/*=-===================================*/
-
->>>>>>> 3b66eb07e69a672e9c8719c9e1ed88ac3eb5b8a7
-.benz-main-slideshow{
-    height:600px;
-    width:100%;
-    background-color: red;
-}
-.slide-item{
-    height:600px;
-    width:100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#333;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.slide1{
-    background: url('Project-photos/aks1.jpeg');
-}
