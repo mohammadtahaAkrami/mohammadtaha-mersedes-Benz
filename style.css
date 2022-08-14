@@ -368,7 +368,7 @@ padding-top: 100px;
 .quick-access{
 position: fixed;
 width: 170px;
-right: 0;
+right: -136px;
 top: 270px;
 }
 .quick-access1{
@@ -399,6 +399,39 @@ th{
 }
 .Top-of-the-list{
     padding-top: 25px;
+}
+.benz-main-slideshow{
+    height: 800px;
+    width: 100%;
+}
+.slide-item{
+    height: 750px;
+    width: 100%;
+}
+.slide-title{
+    padding-top: 70px;
+    padding-left: 150px;
+    font-size: 40px;
+}
+.slide1{
+    background: url('Project-photos/mercedes-benz_classic_history_w116.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slide2{
+    background: url('Project-photos/project-maybach.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slide3{
+    background: url('Project-photos/aks16.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slide4{
+    background: url('Project-photos/aks1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
