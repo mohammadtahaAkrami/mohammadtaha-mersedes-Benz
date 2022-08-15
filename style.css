@@ -1,420 +1,505 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-html{
+
+html {
     color: #fff;
 }
-.class{
+
+.class {
     box-sizing: border-box;
 }
-.p1{
-font-size: larger;
-width: 100%;
-height: 100%;
-box-sizing: border-box;
+
+.p1 {
+    font-size: larger;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
-.top-menu{
-display: flex;
-flex-direction: row;
-gap: 35px;
-padding: 15px 5px 0px 500px;
-width: 100%;
-height: 100%;
-cursor: pointer;
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 15px 5px 0px 500px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
-.top-menu1:hover{
-color: lightblue;
+
+.top-menu1:hover {
+    color: lightblue;
 }
-.top-menu2:hover{
-color: lightblue;
+
+.top-menu2:hover {
+    color: lightblue;
 }
-.top-menu3:hover{
-color: lightblue;
+
+.top-menu3:hover {
+    color: lightblue;
 }
-.top-menu4:hover{
-color: lightblue;
+
+.top-menu4:hover {
+    color: lightblue;
 }
-.top-menu5:hover{
- color: lightblue;
+
+.top-menu5:hover {
+    color: lightblue;
 }
-.top-menu6:hover{
- color: lightblue;
+
+.top-menu6:hover {
+    color: lightblue;
 }
- .top-menu7:hover{
- color: lightblue;
+
+.top-menu7:hover {
+    color: lightblue;
 }
-.wrapper{
-width: 100%;
-height: 100%;
-position: relative;
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
-.slide-show{
-width: 100%;
-height: 600px;
-background-color: #333;
+
+.slide-show {
+    width: 100%;
+    height: 600px;
+    background-color: #333;
 }
-.p3{
-color: #fff;
-font-size: 40px;
-position: absolute;
-top: 60px;
-left: 150px;
+
+.p3 {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
 }
-.table-for-input{
-background-color: rgb(35, 34, 34);
-border: black;
-width: 100%;
+
+.table-for-input {
+    background-color: rgb(35, 34, 34);
+    border: black;
+    width: 100%;
 }
-#input{
+
+#input {
     background-image: url(icon-search.png);
-    background-position:right ; 
-    background-size:15px ;
+    background-position: right;
+    background-size: 15px;
     background-repeat: no-repeat;
     height: 40px;
     cursor: pointer;
     box-sizing: border-box;
-    width: 100%;
+    width: calc(100% - 50px);
     margin: 25px;
 }
-.m1{
-background-color: #fff;
-width:1200px ;
-height: 30px;
-padding-top: 16px;
-padding-left: 16px;
-color: gray;
+
+.m1 {
+    background-color: #fff;
+    width: 1200px;
+    height: 30px;
+    padding-top: 16px;
+    padding-left: 16px;
+    color: gray;
 }
-.p5{
-padding-top: 150px;
-text-align: center;
+
+.p5 {
+    padding-top: 150px;
+    text-align: center;
 
 }
-.m2{
-font-size: 35px;
+
+.m2 {
+    font-size: 35px;
 }
-.m3{
-padding-top: 30px;
+
+.m3 {
+    padding-top: 30px;
 }
-.p6{
-        display: flex;
-        width: max-content;
-        margin: 0 auto;
-        gap: 15px;
-        padding-top: 110px;
+
+.p6 {
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    gap: 15px;
+    padding-top: 110px;
 }
-.p6 img{
-width: 300px;
-height: 170px;
+
+.p6 img {
+    width: 300px;
+    height: 170px;
 }
-.p6 img:hover{
+
+.p6 img:hover {
     cursor: pointer;
     border-bottom: lightblue solid 8px;
 }
-.middle-menu{
-display: flex;
-flex-direction: row;
-gap: 35px;
-width: 100%;
-height: 100%;
-padding-top: 65px;
-justify-content: center;
-padding-bottom: 35px;
-}
-.middle-menu1{
-    cursor: pointer;
-}
-.middle-menu2{
-    cursor: pointer;
-}
-.middle-menu3{
-    cursor: pointer;
-}
-.middle-menu1:hover{
-color: lightskyblue;
-}
-.middle-menu2:hover{
-color: lightskyblue;
-}
-.middle-menu3:hover{
-color: lightskyblue;
-}
-.content{
+
+.middle-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
     width: 100%;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-grid-template-areas:"post1 post1 post2 post3"
-                    "post1 post1 post4 post5"
-                    "post6 post7 post8 post9"
-                    "post10 post10 post11 post12"
-                    "post10 post10 post13 post14";
+    height: 100%;
+    padding-top: 65px;
+    justify-content: center;
+    padding-bottom: 35px;
 }
-.content:hover{
+
+.middle-menu1 {
     cursor: pointer;
 }
-.post img{
+
+.middle-menu2 {
+    cursor: pointer;
+}
+
+.middle-menu3 {
+    cursor: pointer;
+}
+
+.middle-menu1:hover {
+    color: lightskyblue;
+}
+
+.middle-menu2:hover {
+    color: lightskyblue;
+}
+
+.middle-menu3:hover {
+    color: lightskyblue;
+}
+
+.content {
     width: 100%;
-    height:100% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "post1 post1 post2 post3"
+        "post1 post1 post4 post5"
+        "post6 post7 post8 post9"
+        "post10 post10 post11 post12"
+        "post10 post10 post13 post14";
 }
-.post1{
-grid-area: post1;
-position: relative;
+
+.content:hover {
+    cursor: pointer;
 }
-.img1{
+
+.post img {
+    width: 100%;
+    height: 100%;
+}
+
+.post1 {
+    grid-area: post1;
+    position: relative;
+}
+
+.img1 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 20px;
 }
-.post2{
-grid-area: post2;
-position: relative;
+
+.post2 {
+    grid-area: post2;
+    position: relative;
 }
-.img2{
+
+.img2 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 20px;
 }
-.post3{
-grid-area: post3;
-position: relative;
+
+.post3 {
+    grid-area: post3;
+    position: relative;
 }
-.img3{
+
+.img3 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
 }
-.post4{
-grid-area: post4;
-position: relative;
+
+.post4 {
+    grid-area: post4;
+    position: relative;
 }
-.img4{
+
+.img4 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 20px;
 }
-.post5{
-grid-area: post5;
-position: relative;
+
+.post5 {
+    grid-area: post5;
+    position: relative;
 }
-.img5{
+
+.img5 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
-    bottom: 0px;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 20px;
-}
-.post6{
-grid-area: post6;
-position: relative;
-}
-.img6{
-    position: absolute;
-    background-color: rgb(0,0,0,.35);
-    bottom: 0px;
-    width: 100%;
-    padding-left: 20px;
-}
-.post7{
-grid-area: post7;
-position: relative;
-}
-.img7{
-    position: absolute;
-    background-color: rgb(0,0,0,.35);
-    bottom: 0px;
-    width: 100%;
-    padding-left: 20px;
-}
-.post8{
-grid-area: post8;
-position: relative;
-}
-.img8{
-    position: absolute;
-    background-color: rgb(0,0,0,.35);
-    bottom: 0px;
-    width: 100%;
-    padding-left: 20px;
-}
-.post9{
-grid-area: post9;
-position: relative;
-}
-.img9{
-    position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
 }
-.post10{
-grid-area: post10;
-position: relative;
+
+.post6 {
+    grid-area: post6;
+    position: relative;
 }
-.img10{
+
+.img6 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 20px;
 }
-.post11{
-grid-area: post11;
-position: relative;
+
+.post7 {
+    grid-area: post7;
+    position: relative;
 }
-.img11{
+
+.img7 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 20px;
 }
-.post12{
-grid-area: post12;
-position: relative;
+
+.post8 {
+    grid-area: post8;
+    position: relative;
 }
-.img12{
+
+.img8 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.post9 {
+    grid-area: post9;
+    position: relative;
+}
+
+.img9 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
 }
-.post13{
-grid-area: post13;
-position: relative;
+
+.post10 {
+    grid-area: post10;
+    position: relative;
 }
-.img13{
+
+.img10 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.post11 {
+    grid-area: post11;
+    position: relative;
+}
+
+.img11 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, .35);
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.post12 {
+    grid-area: post12;
+    position: relative;
+}
+
+.img12 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, .35);
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.post13 {
+    grid-area: post13;
+    position: relative;
+}
+
+.img13 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     padding-left: 15px;
 }
-.post14{
-grid-area: post14;
-position: relative;
+
+.post14 {
+    grid-area: post14;
+    position: relative;
 }
-.img14{
+
+.img14 {
     position: absolute;
-    background-color: rgb(0,0,0,.35);
+    background-color: rgb(0, 0, 0, .35);
     bottom: 0px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
 }
-.p9{
-padding-top: 25px;
-text-align: center;
+
+.p9 {
+    padding-top: 25px;
+    text-align: center;
 }
-.header{
-display: flex;
-align-items: center;
-justify-content: space-between;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.logo{
+
+.logo {
     padding-left: 20px;
     padding-top: 25px;
     padding-bottom: 15px;
     width: 400px;
 }
-.logo img{
-display: inline-block;
+
+.logo img {
+    display: inline-block;
 }
+
 a{
-color: darkcyan;
+    text-decoration: none;
+    color: darkcyan;
 }
-a:hover{
+
+a:hover {
     color: plum;
 }
-.button1{
-border: none;
-color: #fff;
-background-color: #333;
-padding: 7px 20px 6px;
-cursor: pointer;
-font-size: 16px;
+
+.button1 {
+    border: none;
+    color: #fff;
+    background-color: #333;
+    padding: 7px 20px 6px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.button2{
-background-color: aqua;
-padding: 5px 12px 6px 12px;
-cursor: pointer;
-font-size: 16px;
+
+.button2 {
+    background-color: aqua;
+    padding: 5px 12px 6px 12px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.button2:hover{
+
+.button2:hover {
     border-bottom: red solid 4px;
 }
-.button3{
-background-color: #333;
-color: #fff;
-padding: 9px 34px;
-cursor: pointer;
+
+.button3 {
+    background-color: #333;
+    color: #fff;
+    padding: 9px 34px;
+    cursor: pointer;
 }
-.written{
-font-family: Roboto-Black;
-width: calc(100% - 60px);
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 30px;
+
+.written {
+    font-family: Roboto-Black;
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
 }
-.written1{
-display: flex;
-gap: 26px;
-padding-top: 100px;
+
+.written1 {
+    display: flex;
+    gap: 26px;
+    padding-top: 100px;
 }
+
 @font-face {
     font-family: roboto;
     src: url("Roboto-Black.ttf");
 }
-.quick-access{
-position: fixed;
-width: 177px;
-right: -136px;
-top: 270px;
+
+.quick-access {
+    position: fixed;
+    width: 177px;
+    right: -136px;
+    top: 270px;
 }
-.quick-access:hover{
+
+.quick-access:hover {
     cursor: pointer;
 }
-.quick-access1{
-background-color: red;
-height: 38px;
+
+.quick-access1 {
+    background-color: red;
+    height: 38px;
 }
-.quick-access1 img{
+
+.quick-access1 img {
     width: 41px;
     height: 38px;
 }
-.quick-access2{
-background-color: yellow;
-height: 38px;
+
+.quick-access2 {
+    background-color: yellow;
+    height: 38px;
 }
-.quick-access2 img{
+
+.quick-access2 img {
     width: 45px;
     height: 38px;
 }
-.quick-access3{
-background-color: green;
-height: 38px;
+
+.quick-access3 {
+    background-color: green;
+    height: 38px;
 }
-.quick-access3 img{
+
+.quick-access3 img {
     width: 41px;
     height: 38px;
 }
-.table-for-writing{
+
+.table-for-writing {
     background-color: black;
     width: calc(100% - 60px);
     margin-left: auto;
@@ -422,66 +507,79 @@ height: 38px;
     padding-left: 0%;
     padding-right: 0%;
 }
-th{
+
+th {
     padding-right: 180px;
-   font-size: 34px; 
-   border-bottom: 3px solid #333;
-   padding-bottom: 25px;
+    font-size: 34px;
+    border-bottom: 3px solid #333;
+    padding-bottom: 25px;
 }
-.Top-of-the-list{
+
+.Top-of-the-list {
     padding-top: 25px;
 }
-.benz-main-slideshow{
+
+.benz-main-slideshow {
     height: 751px;
     width: 100%;
 }
-.slide-item{
+
+.slide-item {
     height: 750px;
     width: 100%;
 }
-.slide-title{
+
+.slide-title {
     padding-top: 70px;
     padding-left: 150px;
     font-size: 40px;
 }
-.slide1{
+
+.slide1 {
     background: url('Project-photos/mercedes-benz_classic_history_w116.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.slide2{
+
+.slide2 {
     background: url('Project-photos/project-maybach.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.slide3{
+
+.slide3 {
     background: url('Project-photos/aks16.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.slide4{
+
+.slide4 {
     background: url('Project-photos/aks1.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-span{
+
+span {
     padding-left: 19px;
 }
 
-.informed-titele{
+.informed-titele {
     font-size: 34px;
     border-bottom: #333 solid 3px;
     padding-bottom: 25px;
 }
-.informed{
+
+.informed {
     width: calc(100% - 60px);
     margin-left: auto;
     margin-right: auto;
 }
-.Informed-writings{
+
+.Informed-writings {
     padding-top: 25px;
 }
-.Ways-of-communication{
+
+.Ways-of-communication {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -490,5 +588,3 @@ span{
     padding-top: 10px;
     padding-bottom: 40px;
 }
-
-
