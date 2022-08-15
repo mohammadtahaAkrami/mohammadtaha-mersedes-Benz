@@ -394,13 +394,25 @@ top: 270px;
 background-color: red;
 height: 38px;
 }
+.quick-access1 img{
+    width: 41px;
+    height: 38px;
+}
 .quick-access2{
 background-color: yellow;
 height: 38px;
 }
+.quick-access2 img{
+    width: 45px;
+    height: 38px;
+}
 .quick-access3{
 background-color: green;
 height: 38px;
+}
+.quick-access3 img{
+    width: 41px;
+    height: 38px;
 }
 .table-for-writing{
     background-color: black;
@@ -454,6 +466,29 @@ th{
 }
 span{
     padding-left: 19px;
+}
+
+.informed-titele{
+    font-size: 34px;
+    border-bottom: #333 solid 3px;
+    padding-bottom: 25px;
+}
+.informed{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.Informed-writings{
+    padding-top: 25px;
+}
+.Ways-of-communication{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 
