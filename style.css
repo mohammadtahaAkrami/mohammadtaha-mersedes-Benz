@@ -438,7 +438,10 @@ a:hover {
     padding: 9px 34px;
     cursor: pointer;
 }
-
+.button3:hover{
+    border-bottom: rgb(87, 83, 83) solid 3px;
+    color: aquamarine;
+}
 .written {
     font-family: Roboto-Black;
     width: calc(100% - 60px);
@@ -509,7 +512,7 @@ a:hover {
 }
 
 th {
-    padding-right: 180px;
+    text-align: left;
     font-size: 34px;
     border-bottom: 3px solid #333;
     padding-bottom: 25px;
