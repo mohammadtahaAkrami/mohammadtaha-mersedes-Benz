@@ -117,6 +117,7 @@ html {
 
 .m2 {
     font-size: 35px;
+    height: 19px;
 }
 
 .m3 {
@@ -555,7 +556,7 @@ th {
 }
 
 span {
-    padding-left: 19px;
+    padding-left: 25px;
 }
 
 .informed-titele {
