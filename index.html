@@ -18,7 +18,7 @@
             <div class="header">
                 <div class="logo">
                     <img src="logo.svg">
-                    <span>Mersedes-Benz</span>
+                    <span class="site-title">Mersedes-Benz</span>
                 </div>
                 <div class="top-menu">
                     <div class="top-menu1">Vehicles</div>
@@ -28,7 +28,7 @@
                     <div class="top-menu5">Sports</div>
                     <div class="top-menu6">Events</div>
                     <div class="top-menu7">Lifestyle</div>
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                    <span class="icon-menu" onclick="openNav()">&#9776; open</span>
                 </div>
             </div>
             <div class="wrapper">
@@ -367,11 +367,12 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h2>Menu</h2>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
-      </div>
+      </div>    
       <script>
         function openNav() {
           document.getElementById("mySidenav").style.width = "250px";
@@ -380,8 +381,6 @@
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
-        </script>
-           
+        </script>      
 </body>
-
 </html>
