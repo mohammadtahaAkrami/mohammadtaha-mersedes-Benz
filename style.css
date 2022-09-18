@@ -10,19 +10,11 @@ html {
     color: #fff;
 }
 
-.header{
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
-    grid-template-areas: "logo top-menu;"
-}
 
 .logo{
-    font-size: larger;
-    padding-left: 20px;
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     box-sizing: border-box;
-    grid-area: logo;
 }
 
 .top-menu {
@@ -31,7 +23,7 @@ html {
     grid-area: top-menu;
     gap: 35px;
     font-size: 20px;
-    padding-right: 39px;
+    padding-bottom: 25px ;
 }
 
 .top-menu1:hover {
@@ -47,7 +39,8 @@ html {
     background: -webkit-linear-gradient( #3f5efb, #fc466b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s;}
+    transition: 0.5s;
+}
 
 .top-menu3:hover {
     font-size: 30px;
@@ -194,14 +187,20 @@ html {
 
 .middle-menu1:hover {
     color: lightskyblue;
+    font-size: 20px;
+    transition: 0.5s;
 }
 
 .middle-menu2:hover {
     color: lightskyblue;
+    font-size: 20px;
+    transition: 0.5s;
 }
 
 .middle-menu3:hover {
     color: lightskyblue;
+    font-size: 20px;
+    transition: 0.5s;
 }
 
 .content {
@@ -421,6 +420,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 a{
@@ -481,46 +481,6 @@ a:hover {
     src: url("Roboto-Black.ttf");
 }
 
-.quick-access {
-    position: fixed;
-    width: 177px;
-    right: -136px;
-    top: 270px;
-}
-
-.quick-access:hover {
-    cursor: pointer;
-}
-
-.quick-access1 {
-    background-color: red;
-    height: 38px;
-}
-
-.quick-access1 img {
-    width: 41px;
-    height: 38px;
-}
-
-.quick-access2 {
-    background-color: yellow;
-    height: 38px;
-}
-
-.quick-access2 img {
-    width: 45px;
-    height: 38px;
-}
-
-.quick-access3 {
-    background-color: green;
-    height: 38px;
-}
-
-.quick-access3 img {
-    width: 41px;
-    height: 38px;
-}
 
 .table-for-writing {
     background-color: black;
@@ -583,7 +543,8 @@ th {
 }
 
 .site-title{
-    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: xx-large;
 }
 
 .informed-titele {
@@ -676,4 +637,30 @@ th {
 h2{
     padding-left: 35px;
     font-size: 41px;
+}
+
+@media screen and (max-width: 800px) 
+{
+
+   .header{
+    width: 930px;
+   }
+
+
+   .wrapper{
+    width: 930px;
+   }
+
+
+   .table-for-writing{
+    width: 900px;
+    margin-left: 30px;
+    padding-right: 30px;
+   }
+
+
+   .informed{
+    width: 900px;
+    margin-left: 30px;
+   }
 }
